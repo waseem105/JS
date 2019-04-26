@@ -1,7 +1,6 @@
 /////////////////////////////////
 // Lecture: let and const
 
-/*
 // ES5
 var name5 = 'Jane Smith';
 var age5 = 23;
@@ -56,7 +55,7 @@ for (var i = 0; i < 5; i++) {
 }
 
 console.log(i);
-*/
+
 
 
 
@@ -90,7 +89,6 @@ console.log(c);
 /////////////////////////////////
 // Lecture: Strings
 
-/*
 let firstName = 'John';
 let lastName = 'Smith';
 const yearOfBirth = 1990;
@@ -111,7 +109,7 @@ console.log(n.startsWith('j'));
 console.log(n.endsWith('Sm'));
 console.log(n.includes('oh'));
 console.log(`${firstName} `.repeat(5));
-*/
+
 
 
 
@@ -119,7 +117,6 @@ console.log(`${firstName} `.repeat(5));
 /////////////////////////////////
 // Lecture: Arrow functions
 
-/*
 const years = [1990, 1965, 1982, 1937];
 
 // ES5
@@ -142,7 +139,7 @@ ages6 = years.map((el, index) => {
     return `Age element ${index + 1}: ${age}.`
 });
 console.log(ages6);
-*/
+
 
 
 
@@ -150,7 +147,7 @@ console.log(ages6);
 /////////////////////////////////
 // Lecture: Arrow functions 2
 
-/*
+
 // ES5
 var box5 = {
     color: 'green',
@@ -220,7 +217,7 @@ Person.prototype.myFriends6 = function(friends) {
 }
 
 new Person('Mike').myFriends6(friends);
-*/
+
 
 
 
@@ -228,7 +225,7 @@ new Person('Mike').myFriends6(friends);
 /////////////////////////////////
 // Lecture: Destructuring
 
-/*
+
 // ES5
 var john = ['John', 26];
 //var name = john[0];
@@ -264,7 +261,7 @@ function calcAgeRetirement(year) {
 const [age2, retirement] = calcAgeRetirement(1990);
 console.log(age2);
 console.log(retirement);
-*/
+
 
 
 
@@ -272,7 +269,7 @@ console.log(retirement);
 /////////////////////////////////
 // Lecture: Arrays
 
-/*
+
 const boxes = document.querySelectorAll('.box');
 
 //ES5
@@ -324,7 +321,7 @@ console.log(ages[full.indexOf(true)]);
 //ES6
 console.log(ages.findIndex(cur => cur >= 18));
 console.log(ages.find(cur => cur >= 18));
-*/
+
 
 
 
@@ -332,7 +329,7 @@ console.log(ages.find(cur => cur >= 18));
 /////////////////////////////////
 // Lecture: Spread operator
 
-/*
+
 function addFourAges (a, b, c, d) {
     return a + b + c + d;
 }
@@ -361,7 +358,7 @@ const boxes = document.querySelectorAll('.box');
 const all = [h, ...boxes];
 
 Array.from(all).forEach(cur => cur.style.color = 'purple');
-*/
+
 
 
 
@@ -369,7 +366,7 @@ Array.from(all).forEach(cur => cur.style.color = 'purple');
 /////////////////////////////////
 // Lecture: Rest parameters
 
-/*
+
 //ES5
 function isFullAge5() {
     //console.log(arguments);
@@ -413,7 +410,7 @@ function isFullAge6(limit, ...years) {
 }
 
 isFullAge6(16, 1990, 1999, 1965, 2016, 1987);
-*/
+
 
 
 

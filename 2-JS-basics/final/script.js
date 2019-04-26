@@ -1,7 +1,7 @@
 /*****************************
 * Variables and data types
 */
-/*
+
 var firstName = 'John';
 console.log(firstName);
 
@@ -21,14 +21,14 @@ console.log(job);
 var _3years = 3;
 var johnMark = 'John and MArk';
 var if = 23;
-*/
+
 
 
 
 /*****************************
 * Variable mutation and type coercion
 */
-/*
+
 var firstName = 'John';
 var age = 28;
 
@@ -49,14 +49,14 @@ alert(firstName + ' is a ' + age + ' year old ' + job + '. Is he married? ' + is
 
 var lastName = prompt('What is his last Name?');
 console.log(firstName + ' ' + lastName);
-*/
+
 
 
 
 /*****************************
 * Basic operators
 */
-/*
+
 var year, yearJohn, yearMark;
 now = 2018;
 ageJohn = 28;
@@ -84,14 +84,14 @@ console.log(typeof ageJohn);
 console.log(typeof 'Mark is older tha John');
 var x;
 console.log(typeof x);
-*/
+
 
 
 
 /*****************************
 * Operator precedence
 */
-/*
+
 var now = 2018;
 var yearJohn = 1989;
 var fullAge = 18;
@@ -119,7 +119,7 @@ x += 10;
 console.log(x);
 x--;
 console.log(x);
-*/
+
 
 
 
@@ -157,7 +157,7 @@ console.log('Is Mark\'s BMI higher than John\'s? ' + markHigherBMI);
 /*****************************
 * If / else statements
 */
-/*
+
 var firstName = 'John';
 var civilStatus = 'single';
 
@@ -189,14 +189,14 @@ if (BMIMark > BMIJohn) {
 } else {
     console.log('John\'s BMI is higher than Marks\'s.');
 }
-*/
+
 
 
 
 /*****************************
 * Boolean logic
 */
-/*
+
 var firstName = 'John';
 var age = 20;
 
@@ -209,14 +209,13 @@ if (age < 13) {
 } else {
     console.log(firstName + ' is a man.');
 }
-*/
+
 
 
 
 /*****************************
 * The Ternary Operator and Switch Statements
 */
-/*
 var firstName = 'John';
 var age = 14;
 
@@ -237,7 +236,7 @@ var job = 'instructor';
 switch (job) {
     case 'teacher':
     case 'instructor':
-        console.log(firstName + ' teaches kids how to code.');
+        console.log(firstName + ' teaches how to code.');
         break;
     case 'driver':
         console.log(firstName + ' drives an uber in Lisbon.');
@@ -263,14 +262,14 @@ switch (true) {
     default:
         console.log(firstName + ' is a man.');
 }
-*/
+
 
 
 
 /*****************************
 * Truthy and Falsy values and equality operators
 */
-/*
+
 // falsy values: undefined, null, 0, '', NaN
 // truthy values: NOT falsy values
 
@@ -288,7 +287,7 @@ if (height || height === 0) {
 if (height === '23') {
     console.log('The == operator does type coercion!');
 }
-*/
+
 
 
 
@@ -308,7 +307,7 @@ John and Mike both play basketball in different teams. In the latest 3 games, Jo
 
 GOOD LUCK 😀
 */
-/*
+
 var scoreJohn = (189 + 120 + 103) / 3;
 var scoreMike = (129 + 94 + 123) / 3;
 var scoreMary = (97 + 134 + 105) / 3;
@@ -332,14 +331,14 @@ if (scoreJohn > scoreMike) {
 } else {
     console.log('There is a draw');
 }
-*/
+
 
 
 
 /*****************************
 * Functions
 */
-/*
+
 function calculateAge(birthYear) {
     return 2018 - birthYear;
 }
@@ -365,14 +364,14 @@ function yearsUntilRetirement(year, firstName) {
 yearsUntilRetirement(1990, 'John');
 yearsUntilRetirement(1948, 'Mike');
 yearsUntilRetirement(1969, 'Jane');
-*/
+
 
 
 
 /*****************************
 * Function Statements and Expressions
 */
-/*
+
 // Function declaration
 // function whatDoYouDo(job, firstName) {}
 
@@ -393,14 +392,14 @@ var whatDoYouDo = function(job, firstName) {
 console.log(whatDoYouDo('teacher', 'John'));
 console.log(whatDoYouDo('designer', 'Jane'));
 console.log(whatDoYouDo('retired', 'Mark'));
-*/
+
 
 
 
 /*****************************
 * Arrays
 */
-/*
+
 // Initialize new array
 var names = ['John', 'Mark', 'Jane'];
 var years = new Array(1990, 1969, 1948);
@@ -429,7 +428,7 @@ console.log(john.indexOf(23));
 
 var isDesigner = john.indexOf('designer') === -1 ? 'John is NOT a designer' : 'John IS a designer';
 console.log(isDesigner);
-*/
+
 
 
 
@@ -450,7 +449,7 @@ In the end, John would like to have 2 arrays:
 
 GOOD LUCK 😀
 */
-/*
+
 function tipCalculator(bill) {
     var percentage;
     if (bill < 50) {
@@ -473,14 +472,14 @@ var finalValues = [bills[0] + tips[0],
                    bills[2] + tips[2]];
 
 console.log(tips, finalValues);
-*/
+
 
 
 
 /*****************************
 * Objects and properties
 */
-/*
+
 // Object literal
 var john = {
     firstName: 'John',
@@ -506,20 +505,22 @@ jane.firstName = 'Jane';
 jane.birthYear = 1969;
 jane['lastName'] = 'Smith';
 console.log(jane);
-*/
+
 
 
 
 /*****************************
 * Objects and methods
 */
-/*
+
 var john = {
     firstName: 'John',
     lastName: 'Smith',
     birthYear: 1992,
     family: ['Jane', 'Mark', 'Bob', 'Emily'],
     job: 'teacher',
+
+
     isMarried: false,
     calcAge: function() {
         this.age = 2018 - this.birthYear;
@@ -528,7 +529,7 @@ var john = {
 
 john.calcAge();
 console.log(john);
-*/
+
 
 
 
@@ -546,7 +547,7 @@ Remember: BMI = mass / height^2 = mass / (height * height). (mass in kg and heig
 
 GOOD LUCK 😀
 */
-/*
+
 var john = {
     fullName: 'John Smith',
     mass: 110,
@@ -574,7 +575,7 @@ if (john.calcBMI() > mark.calcBMI()) {
 } else {
     console.log('They have the same BMI');
 }
-*/
+
 
 
 
@@ -582,7 +583,7 @@ if (john.calcBMI() > mark.calcBMI()) {
 * Loops and iteration
 */
 
-/*
+
 // for loop
 for (var i = 1; i <= 20; i += 2) {
     console.log(i);
@@ -625,7 +626,8 @@ for (var i = 0; i < john.length; i++) {
 for (var i = john.length - 1; i >= 0; i--) {
     console.log(john[i]);
 }
-*/
+
+
 
 
 
@@ -657,7 +659,7 @@ Mark likes to tip 20% of the bill when the bill is less than $100, 10% when the 
 GOOD LUCK 😀
 */
 
-/*
+
 var john = {
     fullName: 'John Smith',
     bills: [124, 48, 268, 180, 42],
@@ -722,6 +724,8 @@ function calcAverage(tips) {
 
 // Do the calculations
 john.calcTips();
+console.log(john);
+
 mark.calcTips();
 
 john.average = calcAverage(john.tips);
@@ -733,4 +737,4 @@ if (john.average > mark.average) {
 } else if (mark.average > john.average) {
     console.log(mark.fullName + '\'s family pays higher tips, with an average of $' + mark.average);
 }
-*/
+

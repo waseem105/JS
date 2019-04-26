@@ -1,6 +1,6 @@
 /////////////////////////////
 // Lecture: Function constructor
-/*
+
 var john = {
     name: 'John',
     yearOfBirth: 1990,
@@ -30,13 +30,13 @@ mark.calculateAge();
 console.log(john.lastName);
 console.log(jane.lastName);
 console.log(mark.lastName);
-*/
+
 
 
 
 /////////////////////////////
 // Lecture: Object.create
-/*
+
 var personProto = {
     calculateAge: function() {
         console.log(2016 - this.yearOfBirth);
@@ -53,13 +53,13 @@ var jane = Object.create(personProto, {
     yearOfBirth: { value: 1969 },
     job: { value: 'designer' }
 });
-*/
+
 
 
 
 /////////////////////////////
 // Lecture: Primitives vs objects
-/*
+
 // Primitives
 var a = 23;
 var b = a;
@@ -95,13 +95,13 @@ change(age, obj);
 
 console.log(age);
 console.log(obj.city);
-*/
+
 
 
 
 /////////////////////////////
 // Lecture: Passing functions as arguments
-/*
+
 var years = [1990, 1965, 1937, 2005, 1998];
 
 function arrayCalc(arr, fn) {
@@ -135,7 +135,7 @@ var rates = arrayCalc(ages, maxHeartRate);
 
 console.log(ages);
 console.log(rates);
-*/
+
 
 
 
